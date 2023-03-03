@@ -26,7 +26,6 @@ class UserTest {
         Assert.assertEquals(EMAIL, userEmail);
     }
 
-
     @AfterAll
     private static void afterAll() {
         System.out.println("Тестирование пройдено");

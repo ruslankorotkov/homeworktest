@@ -10,10 +10,10 @@ public class User {
         login = "adelia";
         email = "adelia@bk.ru";
 
-        if (login.length() < 6) {
-            System.out.println("Длина строки ,больше 6 символов");
-        } else
-            System.out.println("Длина строки в норме");
+//        if (login.length() < 6) {
+//            System.out.println("Длина строки ,больше 6 символов");
+//        } else
+//            System.out.println("Длина строки в норме");
 
         boolean inEmail;
         if (inEmail = email.contains("@")) {
@@ -36,5 +36,4 @@ public class User {
     public String getEmail() {
         return email;
     }
-
 }
